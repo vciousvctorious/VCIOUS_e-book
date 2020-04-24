@@ -1,0 +1,7 @@
+.INTRO------------------------------
+|Hello and welcome to my zero to hero
+|infosec ebook
+|im Ali aka vciousvctorious
+|im a security researcher and today ill be
+|guiding you into the path of infosec
+.------------------------------------

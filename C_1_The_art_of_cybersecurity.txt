@@ -1,0 +1,21 @@
+.------------------------------------
+|CHAPTER_1 : The art of cybersecurity
+.------------------------------------
+|The art of cybersecurity:
+|Cybersecurity it being used in good or bad purposes
+|is always the same thing, its the art of breaking IT
+|related things, its 3 main fundamental things are:
+|1)knowledge:
+| |the more you know in IT the better
+|2)Experience:
+| |on your cybersecurity carreer you'll notice patterns
+| |wich machines or servers are exploited
+| |this is greatly influenced by the amount of time you
+| |dedicate to pentesting
+|3)Mentality:
+| |the way you think and intercept things, each of us
+| |got his unique way of thinking, but only few who
+| |have the right mentality, you should pay attention
+| |to every small detail, as those details could be used
+| |to exploit the machine etc..
+.------------------------------------

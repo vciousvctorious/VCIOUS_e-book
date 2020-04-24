@@ -1,0 +1,53 @@
+.------------------------------------
+|CHAPTER_2 : Skills
+.------------------------------------
+|Starting in infosec requires some skill that you might
+|get better at as needed in your infosec journey, noting few:
+|1)Programming:
+| |if you cant write your own code, atleast be
+| |able to read it, this field requires alot of
+| |programming knowledge, but you dont really need
+| |to master every programming language
+| |honorable mentions:
+| |python3,sql queries, basic web languages, shell,
+| |some c would be nice since ull learn memory management and stuff
+|2)Networking:
+| |while hacking servers, wifi , or even software, you'll
+| |need networking knowledge, im not saying you must know 
+| |how to configure routers etc, the knowledge we need is 
+| |something like this :
+| |1)IP
+| | |Ip adresses are basically virtual ID's
+| | |theres 2 variations of those ipv4 and ipv6, you'll mainly
+| | |be working with v4, try education yourself about those
+| |2)Ports
+| | |Since all your local devices are connected to your router
+| | |we consider the router as a gate to the outside world
+| | |when we send something you actually send it to your router
+| | |wich then forwards it to the outside world, but what if
+| | |you receive something? it'll all make sence when you study
+| | |networking and routing, but for the sake of basic knowledge
+| | |ports are like windows wich data can flow into running services
+| | |as an example, when visiting an http page, you are actually telling
+| | |that server's router to let you flow on port 80,
+| | |wich is reserved for http.
+| |3)Communication
+| | |knowing how machines communicate, as an example,
+| | |a TCP handshake, (tcp is a protocol wich insures data is delivered)
+| | |and its counterpart is UDP (protocol wich doesnt insure delivery of data)
+| | |1)Client sends SYN request the server (synchronize)
+| | |2)Server replies with SYN/ACK (synchronize, acknowledge)
+| | |3)Client replies with ACK (acknowledge)
+| | |Then the servers starts sending data.
+|3)RTFM, and GOOGLE!:
+| |If you cant make your own research , please learn
+| |and when asking someone, your query should be:
+| |i got problem X heres what i know, give solution
+| |and not:
+| |hey can anyone help me?
+|4)SYSTEMS
+| |As a hacker you must know how systems and there files work
+| |you should also be comfortable in using them
+| |manipulating with a linux terminal is a great solution
+| |since the transition from a shell to cmd isnt that hard
+.-.----------------------------------
