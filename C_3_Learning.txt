@@ -1,0 +1,38 @@
+.------------------------------------
+|CHAPTER_3 : Learning
+.------------------------------------
+|6 simple steps from my point of view
+|-Find exploit (research).
+|-Learn The Exploit.
+|-Learn The Requirements.
+|-Perform The exploit.
+|-Create your own script.
+|-Repeat
+|In further chapters ill be explaining some
+|fundamental and VERY known exploits, but
+|for now, lets give an example using SQL injection
+|now that you know that something called SQL injection
+|exists, welcome to part 2, learning the exploit
+|we know that SQL is used for database related things
+|in order to communicate with a SQL database we use
+|SQL Queries , lets assume that we got a username input
+|that we are trying to exploit.
+|QUERY : SELECT * FROM db where user = '$input'
+|the only way we can communicate with this query is with
+|our input, this query expects normal input, but what it doesnt
+|expect is something that would break it, lets try ' as an input
+|QUERY : SELECT * FROM db where user = '''
+|This gives an error due to the QUERY breaking
+|but how could we abuse this ?
+|Lets input ' VERYBADCODE #
+|QUERY : SELECT * FROM db where user = '' VERYBADCODE #'
+|its that easy to inject bad code.
+|now you are expected to test this, simply lookup : SQLInjection CTF
+|to perform the exploit ull need a tool to generate that VERYBADCODE
+|a recommended tool would be SQLmap,
+|now that you know the exploit, how it works and how to perform it
+|you might wanna start learning how to create your own VERYBADCODE
+|or perhaps a script that does it for you. this opens up learning opportunity
+|if creating your own script is way too hard for you, no problem baby steps
+|are also fine, take it easy the more you learn the better.
+.------------------------------------
